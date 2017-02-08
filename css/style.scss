@@ -239,6 +239,7 @@ header{
                 
                 background-color: white;
                 padding: 10px;
+                margin-top: -10px;
                 
                 #product-title{
                     
@@ -571,9 +572,12 @@ header{
         
         .pc_sidemenu{
             
+            
+                
+            width: 90%;
+            padding: 5%;
             margin: 20px auto 0px;
             background-color: white;
-            padding: 20px;
             
             #search{
                 
@@ -593,8 +597,9 @@ header{
                 p{
                     display: inline-block;
                     color: $Brawn1;
-                    font-size: 12px;
+                    font-size: 15px;
                     opacity: 0.8;
+                    width: 90%;
                     padding: 3px;
                     margin-top: -10px;
                     margin-bottom: -5px;
@@ -604,7 +609,6 @@ header{
                 img{
                 
                     display: inline-block;
-                    padding: 3px;
                     float: right;
                     
                 }
@@ -615,21 +619,23 @@ header{
         
         .menutitle{
             
-            width: 100%;
+            width: 90%;
+            padding: 5%;
             background-color: $Brawn1;
-            margin-top: 20px;
+            margin-top: 10px;
             
             a{
                 display: block;
                 
                 img{
                     
-                    margin: 10px;
+                    margin: 0;
                     
                 }
                 
                 .next-icon-1{
                     
+                    margin-top: 3%;
                     float: right;
                     
                 }
@@ -653,14 +659,14 @@ header{
                 
                 li{
                     
+                    width: 90%;
+                    padding: 5%;
+                    margin-bottom: 1px;
                     list-style: none;
                     display: block;
-                    padding: 10px;
                     background-color: white;
                     
                     a{
-                       width: 100%;
-                       padding: 10px;
                        text-decoration: none; 
                        color: black;
                        
@@ -681,18 +687,17 @@ header{
         .menu-contents{
                 
                 display: inline-block;
-                width: 100%;
+                width: 90%;
+                padding: 5%;
                 background-color: white;
                 
                 img{
-                    margin: 10px;
-                    width: 40%;
+                    width: 50%;
                 }
                 
                 
                 .right-box{
-                    margin: 5px;
-                    width: 50%;
+                    width: 40%;
                     float: right;
                 
                 p{
@@ -917,6 +922,9 @@ footer{
             
             #product{
                 
+                width: 80%;
+                padding: 10%;
+                
                 #product-title{
                     
                     h5{
@@ -939,23 +947,23 @@ footer{
                     margin-bottom: 30px;
                     
                     #display_img{
-                        margin-left: 40px;
                         float: left;
-                        width: 400px;
+                        width: 65%;
                         
                     }
                     
                     #list_img{
                         
-                        margin-right: 30px;
-                        width: 160px;
+                        width: 30%;
+                        margin-left: 5%;
                         float: right;
                         
                         li{
                             
                             img{
                                 
-                                width: 70px;
+                                width: 60px;
+                                margin-top: -10%;
                                 
                             }
                             
@@ -1015,12 +1023,13 @@ footer{
             width: 80%;
             margin: 0 auto;
             background-color: white;
-            padding: 20px;
+            padding: 10%;
             
             
             #search{
                 
                 img{
+                    
                     
                     display: block;
                     
@@ -1031,7 +1040,8 @@ footer{
             #searchbox{
                 
                 margin-top: 10px;
-                width: 100%;
+                width: 90%;
+                padding: 5%;
                 background-color: #dcdcdc;
                 
                 p{
@@ -1039,16 +1049,13 @@ footer{
                     color: $Brawn1;
                     font-size: 12px;
                     opacity: 0.8;
-                    padding: 3px;
-                    margin-top: -10px;
-                    margin-bottom: -5px;
                 
                 }
                 
                 img{
                 
                     display: inline-block;
-                    padding: 3px;
+                    margin-top: -20px;
                     float: right;
                     
                 }
@@ -1059,13 +1066,16 @@ footer{
         
         .menutitle{
             
-            width: 100%;
-            background-color: $Brawn1;
-            padding: 10px;
-            margin-top: 20px;
+            width: 90%;
+            padding: 5%;
             
             a{
                 display: block;
+                
+                img{
+                    
+                    margin: 0;
+                }
                 
                 .next-icon-1{
                     
@@ -1089,11 +1099,8 @@ footer{
                 
                 li{
                     margin-bottom: 1px;
-                    padding-top: 10px;
-                    padding-right: 10px;
-                    padding-left: 10px;
-                    padding-bottom: 10px;
-                    width: 100%;
+                    padding: 5%;
+                    width: 90%;
                     list-style: none;
                     background-color: white;
                     display: block;
@@ -1119,8 +1126,8 @@ footer{
         
         .menu-contents{
                 
-                padding: 10px;
-                width: 100%;
+                padding: 5%;
+                width: 90%;
                 background-color: white;
                 
                 img{
